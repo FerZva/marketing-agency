@@ -8,29 +8,80 @@ export function Hero() {
 
   return (
     <section className="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden min-h-[100svh] flex flex-col justify-center">
-      {/* Background decoration with two soft color blobs */}
-      <div className="absolute inset-0 -z-10 bg-zinc-50 overflow-hidden">
-        <div
-          className="absolute rounded-full pointer-events-none"
-          style={{
-            top: '-150px',
-            right: '-100px',
-            width: '500px',
-            height: '500px',
-            background: 'radial-gradient(circle, #fbe2e3 0%, transparent 70%)',
-          }}
-        />
-        <div
-          className="absolute rounded-full pointer-events-none"
-          style={{
-            top: '-100px',
-            left: '-150px',
-            width: '550px',
-            height: '550px',
-            background: 'radial-gradient(circle, #dbd7fb 0%, transparent 70%)',
-          }}
-        />
-      </div>
+      {/* Animated Background Blobs */}
+      <div className="absolute inset-0 z-0 bg-zinc-50 overflow-hidden pointer-events-none">
+  <motion.div
+    animate={{
+      x: [0, 150, -50, 0],
+      y: [0, -100, 50, 0],
+      scale: [1, 1.2, 0.9, 1],
+      rotate: [0, 90, 180, 360],
+    }}
+    transition={{
+      duration: 20,
+      repeat: Infinity,
+      ease: "easeInOut"
+    }}
+    className="
+      absolute top-[10%] left-[10%]
+      w-[80vw] h-[80vw]   /* MOBILE */
+      md:w-[40vw] md:h-[40vw]
+      max-w-[600px] max-h-[600px]
+      rounded-full
+      bg-fuchsia-400/40
+      blur-[60px] md:blur-[120px]
+      opacity-80
+    "
+  />
+
+  <motion.div
+    animate={{
+      x: [0, -150, 50, 0],
+      y: [0, 100, -50, 0],
+      scale: [1, 1.3, 0.8, 1],
+      rotate: [360, 180, 90, 0],
+    }}
+    transition={{
+      duration: 25,
+      repeat: Infinity,
+      ease: "easeInOut"
+    }}
+    className="
+      absolute top-[20%] right-[10%]
+      w-[70vw] h-[70vw]
+      md:w-[35vw] md:h-[35vw]
+      max-w-[500px] max-h-[500px]
+      rounded-full
+      bg-cyan-400/40
+      blur-[60px] md:blur-[120px]
+      opacity-80
+    "
+  />
+
+  <motion.div
+    animate={{
+      x: [-50, 100, -100, -50],
+      y: [50, -50, 100, 50],
+      scale: [0.9, 1.1, 1.2, 0.9],
+      rotate: [0, 180, 360, 0],
+    }}
+    transition={{
+      duration: 22,
+      repeat: Infinity,
+      ease: "easeInOut"
+    }}
+    className="
+      absolute bottom-[5%] left-[20%]
+      w-[85vw] h-[85vw]
+      md:w-[45vw] md:h-[45vw]
+      max-w-[550px] max-h-[550px]
+      rounded-full
+      bg-indigo-400/40
+      blur-[60px] md:blur-[120px]
+      opacity-80
+    "
+  />
+</div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
