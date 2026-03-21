@@ -51,7 +51,7 @@ export const translations = {
       title1: "¿Quién es ",
       titleHighlight: "SMG",
       title2: "?",
-      p1: "Social Media Group (SMG) se fundó bajo un principio simple: el marketing debe impulsar un crecimiento medible. Somos un equipo de estrategas, creativos y analistas apasionados por construir marcas y escalar negocios.",
+      p1: "Social Media Growth (SMG) se fundó bajo un principio simple: el marketing debe impulsar un crecimiento medible. Somos un equipo de estrategas, creativos y analistas apasionados por construir marcas y escalar negocios.",
       p2: "No creemos en soluciones genéricas. Cada marca es única y adaptamos nuestro enfoque para satisfacer tus objetivos y desafíos específicos.",
       benefits: [
         "Estrategias basadas en datos",
@@ -178,7 +178,7 @@ export const translations = {
       submitting: "Enviando..."
     },
     footer: {
-      desc: "Social Media Group. Ayudamos a las marcas a crecer, interactuar y convertir a través de estrategias de marketing basadas en datos.",
+      desc: "Social Media Growth. Ayudamos a las marcas a crecer, interactuar y convertir a través de estrategias de marketing basadas en datos.",
       services: "Servicios",
       company: "Empresa",
       privacy: "Política de Privacidad",
@@ -186,8 +186,8 @@ export const translations = {
       designed: "Diseñado para el crecimiento."
     },
     seo: {
-      title: "SMG | Social Media Group - Agencia de Marketing",
-      desc: "SMG (Social Media Group) es una agencia de marketing de servicio completo dedicada a escalar tu negocio a través de estrategias basadas en datos, contenido creativo y publicidad pagada."
+      title: "SMG | Social Media Growth - Agencia de Marketing",
+      desc: "SMG (Social Media Growth) es una agencia de marketing de servicio completo dedicada a escalar tu negocio a través de estrategias basadas en datos, contenido creativo y publicidad pagada."
     },
     whatsapp: {
       message: "¡Hola! Estoy interesado en sus servicios de marketing."
@@ -245,7 +245,7 @@ export const translations = {
       title1: "Who is ",
       titleHighlight: "SMG",
       title2: "?",
-      p1: "Social Media Group (SMG) was founded on a simple principle: marketing should drive measurable growth. We are a team of strategists, creatives, and analysts who are passionate about building brands and scaling businesses.",
+      p1: "Social Media Growth (SMG) was founded on a simple principle: marketing should drive measurable growth. We are a team of strategists, creatives, and analysts who are passionate about building brands and scaling businesses.",
       p2: "We don't believe in one-size-fits-all solutions. Every brand is unique, and we tailor our approach to meet your specific goals and challenges.",
       benefits: [
         "Data-driven strategies",
@@ -372,7 +372,7 @@ export const translations = {
       submitting: "Sending..."
     },
     footer: {
-      desc: "Social Media Group. We help brands grow, engage, and convert through data-driven marketing strategies.",
+      desc: "Social Media Growth. We help brands grow, engage, and convert through data-driven marketing strategies.",
       services: "Services",
       company: "Company",
       privacy: "Privacy Policy",
@@ -380,8 +380,8 @@ export const translations = {
       designed: "Designed for growth."
     },
     seo: {
-      title: "SMG | Social Media Group - Marketing Agency",
-      desc: "SMG (Social Media Group) is a full-service marketing agency dedicated to scaling your business through data-driven strategies, creative content, and paid advertising."
+      title: "SMG | Social Media Growth - Marketing Agency",
+      desc: "SMG (Social Media Growth) is a full-service marketing agency dedicated to scaling your business through data-driven strategies, creative content, and paid advertising."
     },
     whatsapp: {
       message: "Hello! I'm interested in your marketing services."

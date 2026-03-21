@@ -44,7 +44,7 @@ export function Navbar() {
               SMG
             </span>
             <span className="hidden text-sm font-medium text-zinc-500 sm:inline-block">
-              Social Media Group
+              Social Media Growth
             </span>
           </a>
 

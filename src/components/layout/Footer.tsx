@@ -61,7 +61,7 @@ export function Footer() {
         
         <div className="border-t border-zinc-800 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-zinc-500">
-            &copy; {new Date().getFullYear()} Social Media Group. {t.footer.rights}
+            &copy; {new Date().getFullYear()} Social Media Growth. {t.footer.rights}
           </p>
           <p className="text-sm text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-indigo-400 font-medium">
             {t.footer.designed}

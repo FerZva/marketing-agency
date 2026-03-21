@@ -19,7 +19,7 @@ export default function Home() {
       <Helmet>
         <title>{t.seo.title}</title>
         <meta name="description" content={t.seo.desc} />
-        <meta name="keywords" content="marketing agency, social media management, SEO, paid advertising, content creation, SMG, Social Media Group" />
+        <meta name="keywords" content="marketing agency, social media management, SEO, paid advertising, content creation, SMG, Social Media Growth" />
         <meta property="og:title" content={t.seo.title} />
         <meta property="og:description" content={t.seo.desc} />
         <meta property="og:type" content="website" />
