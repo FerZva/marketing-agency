@@ -22,13 +22,34 @@ export function Contact() {
 
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
-    // Simulate API call to Supabase/Clerk or email service
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    console.log("Form submitted:", data);
-    setIsSubmitting(false);
-    setIsSuccess(true);
-    reset();
-    setTimeout(() => setIsSuccess(false), 5000);
+    try {
+      const response = await fetch("https://formsubmit.co/ajax/itsmeserrano18@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          name: data.name,
+          email: data.email,
+          company: data.company || "Not provided",
+          message: data.message,
+          _subject: "New Contact Form Submission - SMG"
+        })
+      });
+
+      if (response.ok) {
+        setIsSuccess(true);
+        reset();
+        setTimeout(() => setIsSuccess(false), 5000);
+      } else {
+        console.error("Form submission failed");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -64,7 +85,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium mb-1">{t.contact.email}</h3>
-                  <p className="text-zinc-400">hello@smgagency.com</p>
+                  <p className="text-zinc-400">itsmeserrano18@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">

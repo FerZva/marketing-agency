@@ -157,7 +157,7 @@ export const translations = {
       call: "Llámanos",
       email: "Envíanos un correo",
       visit: "Visítanos",
-      location1: "Tegucigalpa, Honduras",
+      location1: "San Pedro Sula, Honduras",
       location2: "Equipo Remoto Global",
       formTitle: "Envíanos un mensaje",
       successTitle: "¡Mensaje Enviado!",
