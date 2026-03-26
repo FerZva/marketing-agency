@@ -42,8 +42,8 @@ export const translations = {
           description: "Campañas publicitarias basadas en datos en Meta, Google y TikTok diseñadas para maximizar tu retorno de inversión (ROAS)."
         },
         {
-          title: "Optimización SEO",
-          description: "Mejora tu posicionamiento orgánico y atrae tráfico de alta intención a tu sitio web con nuestras estrategias integrales de SEO."
+          title: "Desarrollo de Sitios Web y Apps",
+          description: "Creamos sitios web y aplicaciones móviles a medida, optimizados para conversiones, experiencia de usuario y posicionamiento orgánico (SEO)."
         },
         {
           title: "Filmación de videos",
@@ -52,10 +52,6 @@ export const translations = {
         {
           title: "Fotografía profesional",
           description: "Imágenes impactantes y profesionales que capturan la esencia de tu negocio y productos."
-        },
-        {
-          title: "Manejo de redes",
-          description: "Estrategias efectivas y gestión diaria para crecer tu comunidad y presencia online."
         }
       ],
       cta: "Solicitar un Servicio",
@@ -261,8 +257,8 @@ export const translations = {
           description: "Data-driven ad campaigns on Meta, Google, and TikTok designed to maximize your return on ad spend (ROAS)."
         },
         {
-          title: "SEO Optimization",
-          description: "Improve your organic search rankings and drive high-intent traffic to your website with our comprehensive SEO strategies."
+          title: "Website and App Development",
+          description: "We build custom websites and mobile applications optimized for conversions, user experience, and organic search rankings (SEO)."
         },
         {
           title: "Video production",
@@ -271,10 +267,6 @@ export const translations = {
         {
           title: "Professional photography",
           description: "Stunning and professional images that capture the essence of your business and products."
-        },
-        {
-          title: "Social media management",
-          description: "Effective strategies and daily management to grow your community and online presence."
         }
       ],
       cta: "Request a Service",

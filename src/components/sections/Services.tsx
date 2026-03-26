@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-import { BarChart3, Megaphone, PenTool, Search, Video, Camera, Share2 } from "lucide-react";
+import { BarChart3, Megaphone, PenTool, MonitorSmartphone, Video, Camera } from "lucide-react";
 import { useLanguage } from "@/src/contexts/LanguageContext";
 import { Button } from "@/src/components/ui/button";
 import { ServiceFormModal } from "./ServiceFormModal";
@@ -9,7 +9,7 @@ export function Services() {
   const { t } = useLanguage();
   const [isFormOpen, setIsFormOpen] = useState(false);
 
-  const icons = [Megaphone, PenTool, BarChart3, Search, Video, Camera, Share2];
+  const icons = [Megaphone, PenTool, BarChart3, MonitorSmartphone, Video, Camera];
 
   return (
     <section id="services" className="py-20 md:py-32 bg-zinc-50">

@@ -100,12 +100,19 @@ export function ServiceFormModal({ isOpen, onClose }: { isOpen: boolean; onClose
 
                 <div className="space-y-2">
                   <label className="text-sm font-medium text-zinc-700">{t.services.form.services}</label>
-                  <select multiple required name="Services[]" className="w-full p-3 rounded-lg border border-zinc-200 focus:ring-2 focus:ring-violet-500 focus:border-violet-500 outline-none transition-all min-h-[120px]">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
                     {t.services.items.map((service, idx) => (
-                      <option key={idx} value={service.title}>{service.title}</option>
+                      <label key={idx} className="flex items-start space-x-3 p-3 rounded-lg border border-zinc-200 cursor-pointer hover:bg-zinc-50 transition-colors">
+                        <input 
+                          type="checkbox" 
+                          name="Services[]" 
+                          value={service.title}
+                          className="mt-1 h-4 w-4 rounded border-zinc-300 text-violet-600 focus:ring-violet-500"
+                        />
+                        <span className="text-sm text-zinc-700 leading-tight">{service.title}</span>
+                      </label>
                     ))}
-                  </select>
-                  <p className="text-xs text-zinc-500">Hold Ctrl/Cmd to select multiple</p>
+                  </div>
                 </div>
 
                 <div className="space-y-2">
