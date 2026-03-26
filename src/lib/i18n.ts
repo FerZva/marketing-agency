@@ -44,8 +44,33 @@ export const translations = {
         {
           title: "Optimización SEO",
           description: "Mejora tu posicionamiento orgánico y atrae tráfico de alta intención a tu sitio web con nuestras estrategias integrales de SEO."
+        },
+        {
+          title: "Filmación de videos",
+          description: "Producción de video de alta calidad para contar la historia de tu marca y cautivar a tu audiencia."
+        },
+        {
+          title: "Fotografía profesional",
+          description: "Imágenes impactantes y profesionales que capturan la esencia de tu negocio y productos."
+        },
+        {
+          title: "Manejo de redes",
+          description: "Estrategias efectivas y gestión diaria para crecer tu comunidad y presencia online."
         }
-      ]
+      ],
+      cta: "Solicitar un Servicio",
+      form: {
+        title: "Solicitar Servicios",
+        firstName: "Nombre",
+        lastName: "Apellido",
+        email: "Correo Electrónico",
+        phone: "Teléfono",
+        company: "Nombre de la Empresa",
+        services: "Servicios de Interés",
+        details: "Detalles Adicionales",
+        submit: "Enviar Solicitud",
+        success: "¡Gracias! Nos pondremos en contacto pronto."
+      }
     },
     about: {
       title1: "¿Quién es ",
@@ -76,52 +101,52 @@ export const translations = {
     pricing: {
       title1: "Precios simples y ",
       titleHighlight: "transparentes",
-      subtitle: "Elige el plan que se adapte a tu etapa de crecimiento. Sin tarifas ocultas, sin contratos a largo plazo.",
-      popular: "Más Popular",
-      month: "/mes",
-      plans: [
-        {
-          name: "Starter",
-          description: "Perfecto para pequeñas empresas que buscan establecer una presencia.",
-          price: "$999",
-          features: [
-            "2 Plataformas de Redes Sociales",
-            "12 Publicaciones personalizadas por mes",
-            "Gestión básica de comunidad",
-            "Reporte de rendimiento mensual",
-            "Soporte por correo electrónico"
-          ],
-          buttonText: "Empezar"
-        },
-        {
-          name: "Profesional",
-          description: "Ideal para marcas en crecimiento que necesitan un escalado agresivo.",
-          price: "$2,499",
-          features: [
-            "4 Plataformas de Redes Sociales",
-            "24 Publicaciones personalizadas por mes",
-            "Gestión avanzada de comunidad",
-            "Gestión de anuncios pagados (hasta $5k de inversión)",
-            "Llamadas de estrategia quincenales",
-            "Soporte prioritario"
-          ],
-          buttonText: "Escalar Ahora"
-        },
-        {
-          name: "Enterprise",
-          description: "Departamento de marketing de servicio completo para empresas establecidas.",
-          price: "Personalizado",
-          features: [
-            "Todas las plataformas",
-            "Contenido personalizado ilimitado",
-            "Gestión de anuncios de embudo completo",
-            "SEO y marketing de contenidos",
-            "Director de cuenta dedicado",
-            "Soporte 24/7 por Slack"
-          ],
-          buttonText: "Contáctanos"
-        }
-      ]
+      subtitle: "Elige el paquete que se adapte a tu etapa de crecimiento. Sin tarifas ocultas, sin contratos a largo plazo.",
+      individualServices: "Servicios Individuales",
+      selectAmount: "Seleccionar Cantidad",
+      chooseOption: "Elige una opción...",
+      addToCart: "Añadir al Carrito",
+      buildBundle: "Crea un Paquete",
+      bundleDesc1: "Selecciona 2 o más servicios para obtener un ",
+      bundleDesc2: "20% de descuento",
+      bundleDesc3: "!",
+      none: "Ninguno",
+      subtotal: "Subtotal:",
+      bundleDiscount: "Descuento de Paquete (20%):",
+      total: "Total:",
+      selectMoreItems: "Selecciona más servicios",
+      addBundleToCart: "Añadir Paquete al Carrito",
+      addedToCart: "Añadido al carrito!",
+      selectAtLeastTwo: "Por favor selecciona al menos 2 servicios para crear un paquete."
+    },
+    cart: {
+      title: "Tu Carrito",
+      checkout: "Pagar",
+      empty: "Tu carrito está vacío",
+      continueShopping: "Continuar Comprando",
+      paymentMethod: "Método de Pago",
+      creditCard: "Tarjeta de Crédito/Débito",
+      bankTransferBAC: "Transferencia Bancaria (BAC Credomatic)",
+      bankTransferAtlantida: "Transferencia Bancaria (Banco Atlantida)",
+      tengo: "Tengo",
+      tigoMoney: "Tigo Money (+6% comisión)",
+      currency: "Moneda",
+      subtotal: "Subtotal",
+      tigoFee: "Comisión Tigo Money (6%)",
+      total: "Total",
+      back: "Atrás",
+      proceedToCheckout: "Proceder al Pago",
+      placeOrder: "Realizar Pedido",
+      selectPayment: "Por favor selecciona un método de pago",
+      orderSuccess: "¡Pedido realizado con éxito usando ",
+      paymentInstructions: "Instrucciones de Pago",
+      bacDetails: "Cuenta BAC Credomatic: 123456789 (A nombre de Marketing Agency)",
+      atlantidaDetails: "Cuenta Banco Atlántida: 987654321 (A nombre de Marketing Agency)",
+      tengoDetails: "Paga en cualquier punto Tengo al código: 12345",
+      tigoMoneyDetails: "Envía el pago por Tigo Money al número: +504 9999-9999",
+      confirmWhatsApp: "Confirmar pago por WhatsApp",
+      payWithStripe: "Pagar con Tarjeta",
+      stripeMockMessage: "Serás redirigido a la pasarela de pago segura."
     },
     faq: {
       title1: "Preguntas ",
@@ -238,8 +263,33 @@ export const translations = {
         {
           title: "SEO Optimization",
           description: "Improve your organic search rankings and drive high-intent traffic to your website with our comprehensive SEO strategies."
+        },
+        {
+          title: "Video production",
+          description: "High-quality video production to tell your brand's story and captivate your audience."
+        },
+        {
+          title: "Professional photography",
+          description: "Stunning and professional images that capture the essence of your business and products."
+        },
+        {
+          title: "Social media management",
+          description: "Effective strategies and daily management to grow your community and online presence."
         }
-      ]
+      ],
+      cta: "Request a Service",
+      form: {
+        title: "Request Services",
+        firstName: "First Name",
+        lastName: "Last Name",
+        email: "Email Address",
+        phone: "Phone Number",
+        company: "Company Name",
+        services: "Services of Interest",
+        details: "Additional Details",
+        submit: "Submit Request",
+        success: "Thank you! We will get in touch soon."
+      }
     },
     about: {
       title1: "Who is ",
@@ -270,52 +320,52 @@ export const translations = {
     pricing: {
       title1: "Simple, transparent ",
       titleHighlight: "pricing",
-      subtitle: "Choose the plan that fits your growth stage. No hidden fees, no long-term contracts.",
-      popular: "Most Popular",
-      month: "/month",
-      plans: [
-        {
-          name: "Starter",
-          description: "Perfect for small businesses looking to establish a presence.",
-          price: "$999",
-          features: [
-            "2 Social Media Platforms",
-            "12 Custom Posts per month",
-            "Basic Community Management",
-            "Monthly Performance Report",
-            "Email Support"
-          ],
-          buttonText: "Get Started"
-        },
-        {
-          name: "Professional",
-          description: "Ideal for growing brands that need aggressive scaling.",
-          price: "$2,499",
-          features: [
-            "4 Social Media Platforms",
-            "24 Custom Posts per month",
-            "Advanced Community Management",
-            "Paid Ads Management (up to $5k spend)",
-            "Bi-weekly Strategy Calls",
-            "Priority Support"
-          ],
-          buttonText: "Scale Now"
-        },
-        {
-          name: "Enterprise",
-          description: "Full-service marketing department for established companies.",
-          price: "Custom",
-          features: [
-            "All Social Media Platforms",
-            "Unlimited Custom Content",
-            "Full Funnel Paid Ads Management",
-            "SEO & Content Marketing",
-            "Dedicated Account Director",
-            "24/7 Slack Support"
-          ],
-          buttonText: "Contact Us"
-        }
-      ]
+      subtitle: "Choose the package that fits your growth stage. No hidden fees, no long-term contracts.",
+      individualServices: "Individual Services",
+      selectAmount: "Select Amount",
+      chooseOption: "Choose an option...",
+      addToCart: "Add to Cart",
+      buildBundle: "Build a Bundle",
+      bundleDesc1: "Select 2 or more services to get a ",
+      bundleDesc2: "20% discount",
+      bundleDesc3: "!",
+      none: "None",
+      subtotal: "Subtotal:",
+      bundleDiscount: "Bundle Discount (20%):",
+      total: "Total:",
+      selectMoreItems: "Select more items",
+      addBundleToCart: "Add Bundle to Cart",
+      addedToCart: "Added to cart!",
+      selectAtLeastTwo: "Please select at least 2 services to create a bundle."
+    },
+    cart: {
+      title: "Your Cart",
+      checkout: "Checkout",
+      empty: "Your cart is empty",
+      continueShopping: "Continue Shopping",
+      paymentMethod: "Payment Method",
+      creditCard: "Credit/Debit Card",
+      bankTransferBAC: "Bank Transfer (BAC Credomatic)",
+      bankTransferAtlantida: "Bank Transfer (Banco Atlantida)",
+      tengo: "Tengo",
+      tigoMoney: "Tigo Money (+6% commission)",
+      currency: "Currency",
+      subtotal: "Subtotal",
+      tigoFee: "Tigo Money Fee (6%)",
+      total: "Total",
+      back: "Back",
+      proceedToCheckout: "Proceed to Checkout",
+      placeOrder: "Place Order",
+      selectPayment: "Please select a payment method",
+      orderSuccess: "Order placed successfully using ",
+      paymentInstructions: "Payment Instructions",
+      bacDetails: "BAC Credomatic Account: 123456789 (Name: Marketing Agency)",
+      atlantidaDetails: "Banco Atlántida Account: 987654321 (Name: Marketing Agency)",
+      tengoDetails: "Pay at any Tengo point with code: 12345",
+      tigoMoneyDetails: "Send payment via Tigo Money to number: +504 9999-9999",
+      confirmWhatsApp: "Confirm payment via WhatsApp",
+      payWithStripe: "Pay with Card",
+      stripeMockMessage: "You will be redirected to the secure payment gateway."
     },
     faq: {
       title1: "Frequently Asked ",

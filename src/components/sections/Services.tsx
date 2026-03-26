@@ -1,11 +1,15 @@
+import { useState } from "react";
 import { motion } from "motion/react";
-import { BarChart3, Megaphone, PenTool, Search } from "lucide-react";
+import { BarChart3, Megaphone, PenTool, Search, Video, Camera, Share2 } from "lucide-react";
 import { useLanguage } from "@/src/contexts/LanguageContext";
+import { Button } from "@/src/components/ui/button";
+import { ServiceFormModal } from "./ServiceFormModal";
 
 export function Services() {
   const { t } = useLanguage();
+  const [isFormOpen, setIsFormOpen] = useState(false);
 
-  const icons = [Megaphone, PenTool, BarChart3, Search];
+  const icons = [Megaphone, PenTool, BarChart3, Search, Video, Camera, Share2];
 
   return (
     <section id="services" className="py-20 md:py-32 bg-zinc-50">
@@ -31,9 +35,9 @@ export function Services() {
           </motion.p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {t.services.items.map((service, index) => {
-            const Icon = icons[index];
+            const Icon = icons[index % icons.length];
             return (
               <motion.div
                 key={index}
@@ -52,7 +56,15 @@ export function Services() {
             );
           })}
         </div>
+
+        <div className="flex justify-center">
+          <Button size="lg" onClick={() => setIsFormOpen(true)}>
+            {t.services.cta}
+          </Button>
+        </div>
       </div>
+      
+      <ServiceFormModal isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
     </section>
   );
 }

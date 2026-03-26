@@ -1,5 +1,5 @@
-import { Instagram, Twitter, Linkedin, Facebook } from "lucide-react";
-import { useLanguage } from "@/src/contexts/LanguageContext";
+import { Camera, MessageCircle, Video, Users } from "lucide-react";
+import { useLanguage } from "../../contexts/LanguageContext";
 
 export function Footer() {
   const { t } = useLanguage();
@@ -18,20 +18,20 @@ export function Footer() {
               {t.footer.desc}
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-zinc-400 hover:text-white transition-colors">
-                <Instagram size={20} />
+              <a href="https://www.instagram.com/crecimientoenredes._/" className="text-zinc-400 hover:text-white transition-colors">
+                <Camera size={20} />
                 <span className="sr-only">Instagram</span>
               </a>
               <a href="#" className="text-zinc-400 hover:text-white transition-colors">
-                <Twitter size={20} />
+                <MessageCircle size={20} />
                 <span className="sr-only">Twitter</span>
               </a>
               <a href="#" className="text-zinc-400 hover:text-white transition-colors">
-                <Linkedin size={20} />
+                <Video size={20} />
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a href="#" className="text-zinc-400 hover:text-white transition-colors">
-                <Facebook size={20} />
+                <Users size={20} />
                 <span className="sr-only">Facebook</span>
               </a>
             </div>
