@@ -23,7 +23,7 @@ export function Footer() {
                 <Camera size={20} />
                 <span className="sr-only">Instagram</span>
               </a>
-              <a href={`https://wa.me/${AGENCY_CONFIG.phoneDigits}`} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
+              <a href={`https://api.whatsapp.com/send/?phone=${AGENCY_CONFIG.phoneDigits}`} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
                 <MessageCircle size={20} />
                 <span className="sr-only">WhatsApp</span>
               </a>

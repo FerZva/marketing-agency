@@ -70,7 +70,14 @@ export function buildWhatsAppOrderUrl(params: {
   const itemsHeader = isEs ? `📦 *Servicios seleccionados:*` : `📦 *Selected Services:*`;
   const itemsText = params.items
     .map((item) => {
-      const itemPrice = (item.priceLps * (item.isBundle ? 0.8 : 1) * item.quantity).toLocaleString();
+      if (item.isBundle && item.bundleItems && item.bundleItems.length > 0) {
+        const bundleSubItems = item.bundleItems
+          .map((b) => `    ▫️ ${b.amount} ${b.service}`)
+          .join("\n");
+        const bundlePrice = (item.priceLps * 0.8 * item.quantity).toLocaleString();
+        return `  • ${item.platform} - Paquete Especial (-20% OFF) (L ${bundlePrice}):\n${bundleSubItems}`;
+      }
+      const itemPrice = (item.priceLps * item.quantity).toLocaleString();
       return `  • ${item.platform} - ${item.amount} ${item.service} (L ${itemPrice})`;
     })
     .join("\n");
@@ -89,5 +96,5 @@ export function buildWhatsAppOrderUrl(params: {
 
   const message = `${greeting}\n\n${handleLine}\n\n${itemsHeader}\n${itemsText}\n\n${paymentLine}\n${totalLine}\n\n${closing}`;
 
-  return `https://wa.me/${AGENCY_CONFIG.phoneDigits}?text=${encodeURIComponent(message)}`;
+  return `https://api.whatsapp.com/send/?phone=${AGENCY_CONFIG.phoneDigits}&text=${encodeURIComponent(message)}`;
 }

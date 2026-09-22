@@ -4,7 +4,7 @@ import { AGENCY_CONFIG } from "@/src/lib/constants";
 
 export function WhatsAppWidget() {
   const { t } = useLanguage();
-  const whatsappUrl = `https://wa.me/${AGENCY_CONFIG.phoneDigits}?text=${encodeURIComponent(t.whatsapp.message)}`;
+  const whatsappUrl = `https://api.whatsapp.com/send/?phone=${AGENCY_CONFIG.phoneDigits}&text=${encodeURIComponent(t.whatsapp.message)}`;
 
   return (
     <a
