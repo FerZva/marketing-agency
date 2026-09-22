@@ -1,5 +1,6 @@
-import { Camera, MessageCircle, Video, Users } from "lucide-react";
+import { Camera, MessageCircle } from "lucide-react";
 import { useLanguage } from "../../contexts/LanguageContext";
+import { AGENCY_CONFIG } from "@/src/lib/constants";
 
 export function Footer() {
   const { t } = useLanguage();
@@ -18,21 +19,13 @@ export function Footer() {
               {t.footer.desc}
             </p>
             <div className="flex gap-4">
-              <a href="https://www.instagram.com/crecimientoenredes._/" className="text-zinc-400 hover:text-white transition-colors">
+              <a href={AGENCY_CONFIG.instagramUrl} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
                 <Camera size={20} />
                 <span className="sr-only">Instagram</span>
               </a>
-              <a href="#" className="text-zinc-400 hover:text-white transition-colors">
+              <a href={`https://wa.me/${AGENCY_CONFIG.phoneDigits}`} target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors">
                 <MessageCircle size={20} />
-                <span className="sr-only">Twitter</span>
-              </a>
-              <a href="#" className="text-zinc-400 hover:text-white transition-colors">
-                <Video size={20} />
-                <span className="sr-only">LinkedIn</span>
-              </a>
-              <a href="#" className="text-zinc-400 hover:text-white transition-colors">
-                <Users size={20} />
-                <span className="sr-only">Facebook</span>
+                <span className="sr-only">WhatsApp</span>
               </a>
             </div>
           </div>
@@ -43,13 +36,15 @@ export function Footer() {
               <li><a href="#services" className="hover:text-violet-400 transition-colors">Social Media Management</a></li>
               <li><a href="#services" className="hover:text-violet-400 transition-colors">Content Creation</a></li>
               <li><a href="#services" className="hover:text-violet-400 transition-colors">Paid Advertising</a></li>
-              <li><a href="#services" className="hover:text-violet-400 transition-colors">SEO Optimization</a></li>
+              <li><a href="#services" className="hover:text-violet-400 transition-colors">Web & App Development</a></li>
+              <li><a href="#services" className="hover:text-violet-400 transition-colors">Video & Fotografía</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-white font-semibold mb-4">{t.footer.company}</h3>
             <ul className="space-y-3">
+              <li><a href="#portfolio" className="hover:text-violet-400 transition-colors">{t.nav.portfolio}</a></li>
               <li><a href="#about" className="hover:text-violet-400 transition-colors">{t.nav.about}</a></li>
               <li><a href="#testimonials" className="hover:text-violet-400 transition-colors">{t.nav.testimonials}</a></li>
               <li><a href="#pricing" className="hover:text-violet-400 transition-colors">{t.nav.pricing}</a></li>

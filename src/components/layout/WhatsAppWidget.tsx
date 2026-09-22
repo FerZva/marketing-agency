@@ -1,10 +1,10 @@
 import { MessageCircle } from "lucide-react";
 import { useLanguage } from "@/src/contexts/LanguageContext";
+import { AGENCY_CONFIG } from "@/src/lib/constants";
 
 export function WhatsAppWidget() {
   const { t } = useLanguage();
-  const phoneNumber = "50431770881";
-  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(t.whatsapp.message)}`;
+  const whatsappUrl = `https://wa.me/${AGENCY_CONFIG.phoneDigits}?text=${encodeURIComponent(t.whatsapp.message)}`;
 
   return (
     <a

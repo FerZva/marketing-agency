@@ -23,6 +23,7 @@ export function Navbar() {
 
   const navLinks = [
     { name: t.nav.services, href: "#services" },
+    { name: t.nav.portfolio, href: "#portfolio" },
     { name: t.nav.about, href: "#about" },
     { name: t.nav.testimonials, href: "#testimonials" },
     { name: t.nav.pricing, href: "#pricing" },

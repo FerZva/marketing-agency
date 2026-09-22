@@ -6,6 +6,7 @@ import { Input } from "@/src/components/ui/input";
 import { Textarea } from "@/src/components/ui/textarea";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useLanguage } from "@/src/contexts/LanguageContext";
+import { AGENCY_CONFIG } from "@/src/lib/constants";
 
 type FormData = {
   name: string;
@@ -23,7 +24,7 @@ export function Contact() {
   const onSubmit = async (data: FormData) => {
     setIsSubmitting(true);
     try {
-      const response = await fetch("https://formsubmit.co/ajax/itsmeserrano18@gmail.com", {
+      const response = await fetch(`https://formsubmit.co/ajax/${AGENCY_CONFIG.email}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -76,7 +77,9 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium mb-1">{t.contact.call}</h3>
-                  <p className="text-zinc-400">+504 3177-0881</p>
+                  <a href={`tel:${AGENCY_CONFIG.phoneDigits}`} className="text-zinc-400 hover:text-violet-400 transition-colors">
+                    {AGENCY_CONFIG.phoneDisplay}
+                  </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -85,7 +88,9 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium mb-1">{t.contact.email}</h3>
-                  <p className="text-zinc-400">itsmeserrano18@gmail.com</p>
+                  <a href={`mailto:${AGENCY_CONFIG.email}`} className="text-zinc-400 hover:text-violet-400 transition-colors">
+                    {AGENCY_CONFIG.email}
+                  </a>
                 </div>
               </div>
               <div className="flex items-start gap-4">

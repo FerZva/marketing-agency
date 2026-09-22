@@ -58,7 +58,7 @@ export function Services() {
         </div>
 
         <div className="flex justify-center">
-          <Button size="lg" onClick={() => setIsFormOpen(true)}>
+          <Button variant="gradient" size="lg" className="shadow-lg shadow-violet-500/25" onClick={() => setIsFormOpen(true)}>
             {t.services.cta}
           </Button>
         </div>
