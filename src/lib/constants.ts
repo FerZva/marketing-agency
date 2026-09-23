@@ -54,7 +54,7 @@ export function buildWhatsAppOrderUrl(params: {
   }>;
   totalLps: number;
   totalUsd: number;
-  paymentMethodName: string;
+  paymentMethodName?: string;
   lang?: 'es' | 'en';
 }) {
   const isEs = params.lang !== 'en';
@@ -82,9 +82,9 @@ export function buildWhatsAppOrderUrl(params: {
     })
     .join("\n");
 
-  const paymentLine = isEs
-    ? `💳 *Método de Pago:* ${params.paymentMethodName}`
-    : `💳 *Payment Method:* ${params.paymentMethodName}`;
+  const paymentLine = params.paymentMethodName?.trim()
+    ? (isEs ? `💳 *Método de Pago:* ${params.paymentMethodName.trim()}` : `💳 *Payment Method:* ${params.paymentMethodName.trim()}`)
+    : (isEs ? `💳 *Pago / Coordinación:* Directo por WhatsApp` : `💳 *Payment / Coordination:* Direct via WhatsApp`);
 
   const totalLine = isEs
     ? `💰 *Total:* L ${Math.round(params.totalLps).toLocaleString()} (~$${params.totalUsd.toFixed(2)} USD)`

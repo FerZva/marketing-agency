@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 import { Navbar } from "@/src/components/layout/Navbar";
 import { Footer } from "@/src/components/layout/Footer";
@@ -11,10 +12,40 @@ import { Testimonials } from "@/src/components/sections/Testimonials";
 import { FAQ } from "@/src/components/sections/FAQ";
 import { Contact } from "@/src/components/sections/Contact";
 import { useLanguage } from "@/src/contexts/LanguageContext";
+import { useCart } from "@/src/contexts/CartContext";
 import { AGENCY_CONFIG } from "@/src/lib/constants";
+import { toast } from "sonner";
 
 export default function Home() {
   const { t, language } = useLanguage();
+  const { clearCart } = useCart();
+
+  // Listen for Stripe redirect callbacks
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    const payment = params.get("payment");
+
+    if (payment === "success") {
+      clearCart();
+      toast.success(
+        language === "es"
+          ? "¡Pago completado con éxito a través de Stripe! Tu orden está confirmada."
+          : "Payment successfully completed through Stripe! Your order is confirmed.",
+        { duration: 8000 }
+      );
+      // Clean query params from URL without reload
+      window.history.replaceState({}, document.title, window.location.pathname);
+    } else if (payment === "cancelled") {
+      toast.info(
+        language === "es"
+          ? "El proceso de pago con tarjeta en Stripe fue cancelado. Tus servicios permanecen en el carrito."
+          : "Stripe card checkout was cancelled. Your selected services remain in your cart.",
+        { duration: 6000 }
+      );
+      window.history.replaceState({}, document.title, window.location.pathname);
+    }
+  }, [clearCart, language]);
 
   const structuredData = {
     "@context": "https://schema.org",
