@@ -1,8 +1,5 @@
 {
   "name": "SMG Marketing Agency",
-  "description": "Landing page for SMG (Social Media Growth) Marketing Agency",
-  "capabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ],
+  "description": "SMG (Social Media Growth) Marketing Agency",
   "requestFramePermissions": []
 }
