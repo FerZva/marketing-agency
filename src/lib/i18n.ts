@@ -124,7 +124,7 @@ export const translations = {
           description: "Rediseño integral de empaque y estrategia visual para una de las marcas de harina de trigo más emblemáticas del país, resaltando la pureza del grano y la maestría artesanal.",
           fullChallenge: "Modernizar la imagen de la línea de harina de trigo manteniendo su arraigo tradicional entre maestros panaderos y hogares, optimizando la legibilidad técnica en sacos industriales de 50 lbs y empaques retail de 1 lb.",
           fullSolution: "Diseñamos un sistema de empaque con tipografía geométrica robusta, iconografía de espigas doradas y dirección de fotografía rústica con masas frescas, harina al vuelo y horneados crujientes.",
-          image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/ba633b141631377.625747b5a3d9e.jpg"
         },
         {
           id: "puerto-man",
@@ -139,7 +139,7 @@ export const translations = {
           description: "Branding de alto rendimiento para el triatlón de media distancia más desafiante del Caribe, combinando estética agresiva en tonos fuego y negro mate.",
           fullChallenge: "Crear una marca deportiva que compitiera con seriales mundiales como IRONMAN, inspirando a triatletas locales e internacionales a desafiar el calor y las corrientes del Caribe.",
           fullSolution: "Desarrollamos un isotipo dinámico que fusiona las tres disciplinas (natación, ciclismo de ruta y maratón) con tipografía cinética, diseño de medallas fundidas en 3D y señalética de ruta impermeable.",
-          image: "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/e67692253166547.6a61c8478cba0.png"
         },
         {
           id: "valvoline",
@@ -154,7 +154,7 @@ export const translations = {
           description: "Campaña de alto octanaje para la línea de lubricantes sintéticos automotrices, fusionando dinámica de fluidos dorados con el galón oficial para transmitir protección térmica y velocidad.",
           fullChallenge: "Transmitir visualmente la viscosidad perfecta y la protección extrema de los aceites para motor en condiciones climáticas de alto calor y tráfico pesado.",
           fullSolution: "Construimos una composición publicitaria con simulación física de salpicadura en espiral, partículas de luz reflectivas y tratamiento de contraste dramático para displays en talleres y redes.",
-          image: "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/d0cd0d253165729.6a61c34d9742a.png"
         },
         {
           id: "loto-honduras",
@@ -169,7 +169,7 @@ export const translations = {
           description: "Estrategia gráfica conmemorativa llena de confeti dorado, colores institucionales vivos y dinamismo para celebrar a los miles de hondureños ganadores de la lotería.",
           fullChallenge: "Diseñar una campaña nacional de aniversario que conectara con todos los estratos socioeconómicos del país, generando entusiasmo masivo y confianza en los sorteos diarios.",
           fullSolution: "Creamos un ecosistema gráfico festivo con globos volumétricos, confeti brillante y titulares impactantes adaptables a vallas de carretera 12x4m, tótems de venta y formatos digitales animados.",
-          image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/636bfe228291925.685088200feff.png"
         },
         {
           id: "underground-4x4",
@@ -184,7 +184,7 @@ export const translations = {
           description: "Producción fotográfica automotriz en clave baja con esquemas de luz que acentúan la aerodinámica, suspensiones modificadas y acabados en negro brillante.",
           fullChallenge: "Fotografiar vehículos pickup de gran tamaño en interiores controlando reflejos complejos y resaltando los detalles de pintura mate, barras LED y rines off-road.",
           fullSolution: "Implementamos cajas de luz gigantes y barridos de luz lineal (light painting) para esculpir las líneas de carrocería, logrando un catálogo visual a la par de marcas internacionales de automoción.",
-          image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a5d597253968481.6a767fab59d1b.png"
         },
         {
           id: "isabellas-pizza",
@@ -199,7 +199,7 @@ export const translations = {
           description: "Dirección visual y fotografía apetecible que resalta la masa fermentada al estilo napolitano, mozzarella fundida con pull de queso y albahaca fresca del huerto.",
           fullChallenge: "Diferenciar a Isabellas de las cadenas comerciales de pizza rápida, posicionándola como la opción gourmet preferida por los amantes de la cocina artesanal en horno de leña.",
           fullSolution: "Diseñamos un estilo visual oscuro y cálido con tomas en ángulo de 45° y cenitales, capturando el vapor, las burbujas doradas de la corteza y cajas de pizza serigrafiadas con sello de calidad.",
-          image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/8e7197135071361.61e11de40ff60.jpg"
         },
         {
           id: "sabor-natural-burger",
@@ -214,7 +214,7 @@ export const translations = {
           description: "Estilismo gastronómico de alta tentación visual con hamburguesas artesanales de doble carne, queso cheddar fundido y condimentos frescos para redes y vallas.",
           fullChallenge: "Hacer que los platillos se vieran irresistibles en pantallas de celular y plataformas de delivery sin perder la autenticidad del producto que el cliente recibe en mesa.",
           fullSolution: "Montaje milimétrico de capas de ingredientes, brillo controlado con atomizadores y un esquema de iluminación que resalta la jugosidad de la carne y el dorado de los panes brioche.",
-          image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/45907f62061893.5a836e20127c7.jpg"
         },
         {
           id: "kame-con",
@@ -229,7 +229,7 @@ export const translations = {
           description: "Branding audaz y electrizante para la convención de cultura pop, anime, cosplay y esports más grande de la región norte de Honduras.",
           fullChallenge: "Diseñar una identidad visual que reuniera a comunidades tan diversas como fanáticos de anime clásico, jugadores de torneos esports y familias aficionadas al cómic.",
           fullSolution: "Creamos un logotipo con ángulos agudos inspirados en la estética mecha y shonen, con una paleta cromática rojo/blanco/negro adaptable a camisetas, stickers, pantallas de escenario y pulseras VIP.",
-          image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a96c8848711839.589fb30d2a6bc.jpg"
         },
         {
           id: "rosa-savia",
@@ -244,7 +244,7 @@ export const translations = {
           description: "Diseño elegante y minimalista para línea de perfumería femenina y velas aromáticas de cera de soya, evocando exclusividad, rosas carmesí y bienestar natural.",
           fullChallenge: "Posicionar una marca boutique local de cosméticos al nivel de firmas internacionales de perfumería de lujo en centros comerciales y venta online.",
           fullSolution: "Paleta en rojo carmesí profundo y blanco perla, tipografía romana refinada y sesiones de fotografía de producto con pétalos naturales, humo sutil y reflejos en cristal tallado.",
-          image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/36f2d5241133653.694f67a1c232a.png"
         },
         {
           id: "wembley-lounge",
@@ -259,7 +259,7 @@ export const translations = {
           description: "Desarrollo integral de marca para bar deportivo de primera línea, combinando la mística de los estadios británicos con la energía de la vida nocturna sampedrana.",
           fullChallenge: "Alejarse del cliché del bar deportivo tradicional oscuro y crear un espacio prémium donde tanto fanáticos del fútbol como grupos de amigos disfruten cócteles y gastronomía.",
           fullSolution: "Sistema de identidad con corona estilizada, tipografía sans bold y aplicaciones en señalética de neón, posavasos grabados y plantillas de resultados de partidos en tiempo real.",
-          image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/b39533146181367.62ab71a214bb3.jpg"
         },
         {
           id: "la-crepe-deli",
@@ -274,7 +274,7 @@ export const translations = {
           description: "Estilismo dulce con tomas de primer plano donde destacan frutas frescas, crepas doradas con azúcar glas y cajas pasteleras diseñadas con amor para regalo.",
           fullChallenge: "Elevar la percepción del postre tradicional a una experiencia de regalo indulgente y fotogénica ideal para celebraciones y cumpleaños.",
           fullSolution: "Composiciones limpias en vajilla blanca con contrastes de fresas silvestres y chocolate amargo, acompañadas de cajas para pasteles con asas ergonómicas y lazos decorativos.",
-          image: "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/8be702235700677.68dcaa060a634.png"
         },
         {
           id: "jabon-jansur",
@@ -289,7 +289,7 @@ export const translations = {
           description: "Diseño de etiqueta comercial para línea de detergentes y desinfectantes 4 en 1 con aroma marino, transmitiendo pureza, poder antibacterial y frescura duradera.",
           fullChallenge: "Sobresalir en los concurridos pasillos de limpieza de los supermercados frente a gigantes transnacionales con presupuesto de publicidad masivo.",
           fullSolution: "Colores turquesa y azul profundo de alto contraste, iconografía de olas marinas cristalinas y sellos frontales claros que destacan los 4 beneficios clave del producto.",
-          image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/7a8a23135071207.61e11cebe7eac.jpg"
         },
         {
           id: "miami-sportswear",
@@ -304,7 +304,7 @@ export const translations = {
           description: "Creación de uniformes deportivos con arte de sublimación geométrica de alta fidelidad para equipos de fútbol y maratonistas en Centroamérica.",
           fullChallenge: "Garantizar que los degradados complejos en tonos aguamarina y azul marino mantuvieran su viveza y nitidez milimétrica al ser transferidos al tejido deportivo térmico.",
           fullSolution: "Diseñamos patrones vectoriales que se alinean perfectamente en costuras de hombros y mangas, logrando una estética moderna que viste a equipos profesionales y aficionados.",
-          image: "https://images.unsplash.com/photo-1577223625816-7546f13df25d?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/594965241833373.6a586a7f211db.png"
         }
       ]
     },
@@ -591,7 +591,7 @@ export const translations = {
           description: "Comprehensive packaging redesign and visual storytelling for Honduras' premier wheat flour brand, celebrating artisanal baking mastery and grain purity.",
           fullChallenge: "Modernize one of the country's oldest flour packaging systems while honoring its deep heritage among master bakers and domestic kitchens across 50 lb and 1 lb formats.",
           fullSolution: "Created a strong geometric typographic hierarchy, golden wheat ear iconography, and rustic culinary photography with tossed flour, raw dough, and golden sourdough loaves.",
-          image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/fs/ba633b141631377.625747b5a3d9e.jpg"
         },
         {
           id: "puerto-man",
@@ -606,12 +606,12 @@ export const translations = {
           description: "High-performance branding for the Caribbean's premier middle-distance triathlon, pairing volcanic fire orange with matte black endurance graphics.",
           fullChallenge: "Build a sporting brand capable of rivaling international circuits like IRONMAN, motivating triathletes to conquer intense coastal heat and Caribbean crosswinds.",
           fullSolution: "Engineered a kinetic emblem harmonizing swimming, road cycling, and endurance running, paired with 3D cast zinc medals and high-visibility weather-resistant route signage.",
-          image: "https://images.unsplash.com/photo-1517649763962-0c623266ddc0?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/e67692253166547.6a61c8478cba0.png"
         },
         {
           id: "valvoline",
           title: "Valvoline — 3D Fluid Splash & Engine Power Campaign",
-          client: "Valvoline Lubricants Honduras",
+          client: "Valvoline Lubricantes Honduras",
           location: "Central America",
           category: "advertising",
           categoryLabel: "Advertising & 3D",
@@ -621,7 +621,7 @@ export const translations = {
           description: "High-octane commercial campaign for premium synthetic motor oils, marrying fluid dynamics with official packaging to express thermal engine defense and velocity.",
           fullChallenge: "Visually convey precise fluid viscosity and engine protection under tropical ambient heat and heavy traffic conditions without falling into generic oil tropes.",
           fullSolution: "Engineered a dynamic 3D spiral fluid splash simulation with illuminated micro-droplets and dramatic high-contrast automotive workshop and billboard renders.",
-          image: "https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/d0cd0d253165729.6a61c34d9742a.png"
         },
         {
           id: "loto-honduras",
@@ -636,7 +636,7 @@ export const translations = {
           description: "Commemorative national graphic campaign bursting with golden confetti, iconic corporate colors, and joyful celebratory energy honoring daily winners.",
           fullChallenge: "Design an inclusive anniversary campaign that resonated across every demographic and socioeconomic layer in Honduras while building trust in daily prize drawings.",
           fullSolution: "Crafted a vibrant visual system with dimensional metallic balloons, celebratory particle bursts, and bold typography scaled to 12x4m roadside billboards and animated social banners.",
-          image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/636bfe228291925.685088200feff.png"
         },
         {
           id: "underground-4x4",
@@ -651,7 +651,7 @@ export const translations = {
           description: "Low-key automotive commercial photography utilizing directional light sweeps to sculpt aggressive body contours, lifted suspensions, and gloss finishes.",
           fullChallenge: "Photograph full-size heavy-duty pickups in an indoor studio environment while eliminating unwanted reflections and accentuating all-terrain wheels and matte black modifications.",
           fullSolution: "Deployed custom overhead light banks and controlled manual light sweeps to carve aerodynamic character lines, creating a visual catalog worthy of premier automotive publications.",
-          image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a5d597253968481.6a767fab59d1b.png"
         },
         {
           id: "isabellas-pizza",
@@ -666,7 +666,7 @@ export const translations = {
           description: "Appetite-driven visual direction and photography celebrating naturally fermented Neapolitan dough, bubbling cheese pulls, and fresh organic garden basil.",
           fullChallenge: "Distinguish Isabellas from fast-food chain pizzerias, positioning it as the top artisanal gourmet pizza choice for foodies and evening gatherings.",
           fullSolution: "Curated a warm, dark visual language with 45-degree angle shots capturing rising steam, charred crust bubbles, and silk-screened kraft delivery boxes with quality assurance seals.",
-          image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/8e7197135071361.61e11de40ff60.jpg"
         },
         {
           id: "sabor-natural-burger",
@@ -681,7 +681,7 @@ export const translations = {
           description: "Mouth-watering culinary styling featuring double smash patties, melting aged cheddar, crispy bacon, and fresh garden herbs for menus and billboards.",
           fullChallenge: "Make menu items look intensely enticing on mobile delivery apps and roadside banners while staying honest to the freshly prepared product served at the table.",
           fullSolution: "Structured precision ingredient layering, subtle mist glazes for natural freshness, and focused backlighting that highlights patty sear and glistening brioche buns.",
-          image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/45907f62061893.5a836e20127c7.jpg"
         },
         {
           id: "kame-con",
@@ -696,7 +696,7 @@ export const translations = {
           description: "Electric, punchy brand identity designed for Northern Honduras' biggest celebration of pop culture, Japanese anime, cosplay, and esports gaming.",
           fullChallenge: "Design a unified visual identity connecting diverse subcultures—from classic 90s shonen enthusiasts to esports tournament competitors and pop-culture families.",
           fullSolution: "Developed a sharp mecha-inspired custom logo, high-contrast red/black/white palette, holographic event badges, and stage backdrop visuals that amplified hype.",
-          image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/a96c8848711839.589fb30d2a6bc.jpg"
         },
         {
           id: "rosa-savia",
@@ -711,7 +711,7 @@ export const translations = {
           description: "Minimalist aesthetic packaging design for feminine fine perfumery and handcrafted botanical soy candles, embodying crimson elegance and sensory relaxation.",
           fullChallenge: "Position an independent domestic fragrance studio to sit proudly beside luxury European perfume houses on upscale boutique shelves and digital boutiques.",
           fullSolution: "Paired deep crimson red and alabaster white with refined serif typography, metallic gold debossing, and moody editorial photography surrounded by real rose petals.",
-          image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/36f2d5241133653.694f67a1c232a.png"
         },
         {
           id: "wembley-lounge",
@@ -726,7 +726,7 @@ export const translations = {
           description: "Complete brand world for a premier sports entertainment lounge, marrying the prestige of British football stadiums with the warmth of Sampedrano nightlife.",
           fullChallenge: "Break away from dim, generic sports bar clichés and establish an upscale venue where die-hard sports fans and social cocktail groups co-exist in an energetic environment.",
           fullSolution: "Engineered a crown and shield brand mark, bold sans typography, neon interior wall accents, engraved leather coasters, and automated live-score social graphics.",
-          image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/b39533146181367.62ab71a214bb3.jpg"
         },
         {
           id: "la-crepe-deli",
@@ -741,7 +741,7 @@ export const translations = {
           description: "Sweet gastronomic styling highlighting fresh berries, golden dusted crêpes, rich Belgian chocolate drizzle, and gift packaging designed for celebrations.",
           fullChallenge: "Transform everyday French crêpes and bespoke birthday cakes into an aspirational, shareable gift-giving experience across social platforms.",
           fullSolution: "Crafted clean white ceramic compositions with vibrant strawberry pops and dark chocolate drizzle, complemented by pastel gift packaging featuring satin carry handles.",
-          image: "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/8be702235700677.68dcaa060a634.png"
         },
         {
           id: "jabon-jansur",
@@ -756,7 +756,7 @@ export const translations = {
           description: "Commercial product label design for a disinfectant line featuring a crisp ocean wave graphic, emphasizing high-grade hygiene, antibacterial action, and long-lasting freshness.",
           fullChallenge: "Win consumer attention in crowded supermarket cleaning aisles against multinational conglomerates with massive promotional budgets.",
           fullSolution: "Utilized high-contrast turquoise and deep oceanic blues, crystal splash waves, and clear front-of-pack iconography highlighting the formula's 4 core benefits.",
-          image: "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/7a8a23135071207.61e11cebe7eac.jpg"
         },
         {
           id: "miami-sportswear",
@@ -771,7 +771,7 @@ export const translations = {
           description: "Full-sublimation athletic jerseys with high-definition geometric gradients engineered for competitive soccer clubs and endurance runners in Central America.",
           fullChallenge: "Ensure complex neon teal and navy angular gradients aligned with surgical accuracy across shoulder and arm seams on breathable perforated technical fabrics.",
           fullSolution: "Engineered scalable vector layout patterns that maintain distortion-free symmetry across sizes XS to XXL, yielding high-visibility uniforms for both amateur and pro athletes.",
-          image: "https://images.unsplash.com/photo-1577223625816-7546f13df25d?auto=format&fit=crop&w=1000&q=80"
+          image: "https://mir-s3-cdn-cf.behance.net/project_modules/disp/594965241833373.6a586a7f211db.png"
         }
       ]
     },

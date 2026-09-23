@@ -124,7 +124,7 @@ export function Portfolio() {
             </div>
 
             <a
-              href={t.portfolio.behanceUrl || "https://www.behance.net"}
+              href={t.portfolio.behanceUrl || "https://www.behance.net/undergrounddigital"}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-violet-600/20 text-violet-300 hover:bg-violet-600 hover:text-white transition-all whitespace-nowrap self-end sm:self-center border border-violet-500/30"
