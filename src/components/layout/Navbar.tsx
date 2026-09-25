@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, Globe, ShoppingCart } from "lucide-react";
 import { Button } from "@/src/components/ui/button";
+import { SMGLogo } from "@/src/components/ui/SMGLogo";
 import { useLanguage } from "@/src/contexts/LanguageContext";
 import { useCart } from "@/src/contexts/CartContext";
 import { CartModal } from "./CartModal";
@@ -47,13 +48,8 @@ export function Navbar() {
       >
         <div className="container mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between">
-            <a href="#" className="flex items-center gap-2">
-              <span className="text-2xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-violet-600 to-indigo-600">
-                SMG
-              </span>
-              <span className="hidden text-sm font-medium text-zinc-500 sm:inline-block">
-                Social Media Growth
-              </span>
+            <a href="#" className="flex items-center gap-2.5 group">
+              <SMGLogo className="h-8 md:h-9" showSubtitle />
             </a>
 
             {/* Desktop Nav */}

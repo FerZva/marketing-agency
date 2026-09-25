@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%">
+  <defs>
+    <!-- Circular text paths -->
+    <path id="top-curve" d="M 40,116 A 76,76 0 0,1 200,116" fill="none" />
+    <path id="bottom-curve" d="M 42,122 A 76,76 0 0,0 198,122" fill="none" />
+    <filter id="badge-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Outer Navy Circle -->
+  <circle cx="120" cy="116" r="96" fill="#181e35" stroke="#be6d43" stroke-width="4.5" />
+  <circle cx="120" cy="116" r="92" fill="none" stroke="#252d4b" stroke-width="1.5" />
+  
+  <!-- Inner Ring Border -->
+  <circle cx="120" cy="116" r="64" fill="#c37853" stroke="#be6d43" stroke-width="3" />
+  <circle cx="120" cy="116" r="62" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.6" />
+
+  <!-- Side Gears/Decorations -->
+  <!-- Left Gear -->
+  <g transform="translate(39, 116) scale(0.65)" fill="#c37853" stroke="#181e35" stroke-width="1.5">
+    <circle cx="0" cy="0" r="10" />
+    <path d="M-2,-14 h4 v5 h-4 z M-2,9 h4 v5 h-4 z M-14,-2 v4 h5 v-4 z M9,-2 v4 h5 v-4 z M-10,-10 l3,3 l-3,3 l-3,-3 z M7,7 l3,3 l-3,3 l-3,-3 z" fill="#c37853" />
+    <circle cx="0" cy="0" r="4.5" fill="#181e35" />
+  </g>
+  <!-- Right Gear -->
+  <g transform="translate(201, 116) scale(0.65)" fill="#c37853" stroke="#181e35" stroke-width="1.5">
+    <circle cx="0" cy="0" r="10" />
+    <path d="M-2,-14 h4 v5 h-4 z M-2,9 h4 v5 h-4 z M-14,-2 v4 h5 v-4 z M9,-2 v4 h5 v-4 z M-10,-10 l3,3 l-3,3 l-3,-3 z M7,7 l3,3 l-3,3 l-3,-3 z" fill="#c37853" />
+    <circle cx="0" cy="0" r="4.5" fill="#181e35" />
+  </g>
+
+  <!-- Curved Text: Top "MOBILE" -->
+  <text fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="20.5" font-weight="900" letter-spacing="4">
+    <textPath href="#top-curve" startOffset="50%" text-anchor="middle">
+      MOBILE
+    </textPath>
+  </text>
+
+  <!-- Curved Text: Bottom "EXPRESS HN" -->
+  <text fill="#ffffff" font-family="'Impact', 'Arial Black', sans-serif" font-size="18" font-weight="900" letter-spacing="2.5">
+    <textPath href="#bottom-curve" startOffset="50%" text-anchor="middle">
+      EXPRESS HN
+    </textPath>
+  </text>
+
+  <!-- Center Artwork: Hand holding smartphone -->
+  <g id="hand-and-phone" transform="translate(120, 117)">
+    <!-- Arm / Wrist entering from bottom left -->
+    <path d="M-36,54 C-33,35 -24,20 -15,10 L-6,14 C-10,28 -18,44 -22,54 Z" fill="#9c5e43" />
+    <path d="M-22,30 C-18,22 -14,14 -4,6 L6,14 C-1,22 -8,36 -12,48 Z" fill="#b06b4c" />
+
+    <!-- Smartphone Body -->
+    <rect x="-14" y="-35" width="28" height="54" rx="5" fill="#0d1117" stroke="#374151" stroke-width="1" />
+    <!-- Screen Glass Shine -->
+    <rect x="-12" y="-33" width="24" height="50" rx="3.5" fill="#161b22" />
+    <!-- Speaker ear piece -->
+    <line x1="-3" y1="-31" x2="3" y2="-31" stroke="#4b5563" stroke-width="1" stroke-linecap="round" />
+    <!-- Apple Logo on phone -->
+    <g transform="translate(0, -9) scale(0.65)" fill="#ffffff">
+      <!-- Leaf -->
+      <path d="M1,-8.5 C2.5,-10 3.2,-11.5 3,-13 C1.6,-12.8 0.4,-12 -0.8,-10.6 C-2,-9.2 -2.5,-7.8 -2.4,-6.5 C-0.9,-6.5 0.3,-7.2 1,-8.5 Z" />
+      <!-- Body with bite -->
+      <path d="M-5.5,-5 C-3.5,-5 -2.2,-3.8 0,-3.8 C2.2,-3.8 3.5,-5 5.5,-5 C7.5,-5 9.2,-3.8 10,-2 C8,-0.8 7,1 7,3.2 C7,5.8 8.8,7.4 9.8,8.2 C9,10.6 7.6,13.2 5.5,13.2 C4.2,13.2 3.2,12.3 1.8,12.3 C0.4,12.3 -0.6,13.2 -1.8,13.2 C-3.8,13.2 -5.8,10.5 -6.8,8 C-8.5,3.6 -7.5,-1.2 -5.5,-3.8 C-4.8,-4.6 -4.2,-5 -5.5,-5 Z" />
+    </g>
+
+    <!-- Hand fingers wrapping around phone -->
+    <!-- Thumb in front -->
+    <path d="M-17,-6 C-17,-12 -12,-16 -7,-12 C-9,-6 -9,0 -12,6 C-15,6 -17,0 -17,-6 Z" fill="#b06b4c" />
+    <!-- Fingers on right side -->
+    <path d="M12,-20 C16,-20 18,-17 18,-15 C18,-13 15,-12 12,-12 Z" fill="#a06045" />
+    <path d="M12,-10 C16,-10 18,-7 18,-5 C18,-3 15,-2 12,-2 Z" fill="#99593e" />
+    <path d="M12,0 C16,0 18,3 18,5 C18,7 15,8 12,8 Z" fill="#905339" />
+    <path d="M11,10 C15,10 17,13 17,15 C17,17 14,18 11,18 Z" fill="#884d34" />
+  </g>
+
+  <!-- Bottom Curved Ribbon / Banner -->
+  <g id="bottom-banner" transform="translate(0, 10)">
+    <!-- Banner shape with tail cuts -->
+    <path d="M 40,166 Q 120,186 200,166 Q 206,184 192,206 Q 120,224 48,206 Q 34,184 40,166 Z" 
+          fill="#13182a" stroke="#ffffff" stroke-width="1.8" filter="url(#badge-shadow)" />
+
+    <!-- Android Icon on Left of Banner -->
+    <g transform="translate(56, 185) scale(0.65)" fill="#ffffff">
+      <!-- Robot head -->
+      <path d="M-6,0 A 7,7 0 0,1 6,0 Z" />
+      <!-- Eyes -->
+      <circle cx="-2.5" cy="-2.5" r="0.8" fill="#13182a" />
+      <circle cx="2.5" cy="-2.5" r="0.8" fill="#13182a" />
+      <!-- Antennae -->
+      <line x1="-4" y1="-5.5" x2="-6" y2="-8.5" stroke="#ffffff" stroke-width="1" stroke-linecap="round" />
+      <line x1="4" y1="-5.5" x2="6" y2="-8.5" stroke="#ffffff" stroke-width="1" stroke-linecap="round" />
+    </g>
+
+    <!-- Apple Icon on Right of Banner -->
+    <g transform="translate(184, 185) scale(0.55)" fill="#ffffff">
+      <path d="M0.8,-7 C1.8,-8.2 2.2,-9.5 2,-10.8 C1,-10.6 0.2,-10 -0.6,-8.8 C-1.5,-7.8 -1.9,-6.6 -1.8,-5.5 C-0.7,-5.5 0.2,-6.1 0.8,-7 Z" />
+      <path d="M-4.5,-4.2 C-3,-4.2 -2,-3.2 0,-3.2 C2,-3.2 3,-4.2 4.5,-4.2 C6.2,-4.2 7.5,-3.2 8.2,-1.6 C6.5,-0.6 5.8,0.8 5.8,2.6 C5.8,4.8 7.2,6.1 8,6.8 C7.2,8.8 6.2,11 4.5,11 C3.5,11 2.6,10.2 1.5,10.2 C0.3,10.2 -0.5,11 -1.5,11 C-3.2,11 -4.8,8.8 -5.6,6.6 C-7,3 -6.2,-1 -4.5,-3.2 C-3.9,-3.9 -3.4,-4.2 -4.5,-4.2 Z" />
+    </g>
+
+    <!-- Banner Texts -->
+    <text x="120" y="186" text-anchor="middle" fill="#ffffff" font-family="'Arial', 'Helvetica', sans-serif" font-weight="800" font-size="8.8" letter-spacing="0.2">
+      Venta y Permuta de Teléfonos
+    </text>
+    <text x="120" y="198" text-anchor="middle" fill="#f8fafc" font-family="'Arial', 'Helvetica', sans-serif" font-weight="700" font-size="7.6" letter-spacing="0.4">
+      #SomosTuMejorOpción
+    </text>
+  </g>
+</svg>

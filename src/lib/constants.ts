@@ -2,6 +2,8 @@ export const AGENCY_CONFIG = {
   name: "SMG - Social Media Growth",
   shortName: "SMG",
   tagline: "Agencia de Crecimiento Digital & Producción Audiovisual",
+  logoUrl: "https://previews.dropbox.com/p/thumb/ADIOlShRiJQvo9UlppVlPH8ig9rKThM5HGl_hdY7WrmvU42gGPwEo1K7A5vqBoPyG5j5YjkqoXXzvwxMaXiQXPyiqDZTUBbqcsbtcuqmc5EfNiMSy6Zu5SWRGVXyoRoAUQekf5yL20P0Sv7YQ2ESmh0YB9shr7hx82GcY4uHigFELj9AeyiBNZ9EfuMW1fuXtp9qz7pWQsObdXLwiOsCzDmpR0FZHJn_kUoTlxqmgAdXQ-0uJDm-Z7Jcg_4m-PEfDtBBN9L5YzNCKlciFpnUVLs-H2k1GKwD-XAao4DdlRHULVmoKEObBenDbKzPLafURwM30Uqq1t7ur6nP-5p9vOFg/p.png?is_prewarmed=true",
+  logoFallback: "/smg-logo.png",
   phoneDisplay: "+504 3177-0881",
   phoneDigits: "50431770881",
   email: "itsmeserrano18@gmail.com",

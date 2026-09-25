@@ -3,13 +3,13 @@ import { Star } from "lucide-react";
 import { useLanguage } from "@/src/contexts/LanguageContext";
 
 const avatars = [
-  "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+  "/mobile-express-hn.svg",
   "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
   "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
 ];
 
 const authors = [
-  "Sarah Jenkins",
+  "Brenda Nicol",
   "David Chen",
   "Elena Rodriguez"
 ];

@@ -327,16 +327,16 @@ export const translations = {
       title1: "No solo confíes en nuestra ",
       titleHighlight: "palabra",
       subtitle: "Escucha a los fundadores y líderes de marketing que se han asociado con nosotros para escalar sus marcas.",
-      roles: ["CMO, TechFlow Solutions", "Fundador, Artisan Coffee Co.", "Directora de E-commerce, Lumina"],
+      roles: ["MobileExpressHN", "Fundador, Artisan Coffee Co.", "Directora de E-commerce, Lumina"],
       quotes: [
-        "SMG transformó por completo nuestra presencia en línea. Nuestros leads entrantes han aumentado un 300% desde que comenzamos a trabajar con ellos hace seis meses.",
+        "SMG transformó por completo nuestras ventas e interacción digital. Gracias a sus estrategias de crecimiento acelerado, en MobileExpressHN multiplicamos las ventas y consultas de teléfonos cada semana.",
         "El nivel de creatividad y pensamiento estratégico que SMG aporta es inigualable. No solo ejecutan; actúan como un verdadero socio en nuestro crecimiento.",
         "Estábamos luchando por obtener un ROAS positivo en nuestros anuncios de Meta. SMG intervino, reestructuró todo y ahora vemos un retorno constante de 4x."
       ]
     },
     pricing: {
-      title1: "Precios simples y ",
-      titleHighlight: "transparentes",
+      title1: "Paquetes Express de ",
+      titleHighlight: "Crecimiento",
       subtitle: "Elige el paquete que se adapte a tu etapa de crecimiento. Sin tarifas ocultas, sin contratos a largo plazo.",
       individualServices: "Servicios Individuales",
       selectAmount: "Seleccionar Cantidad",
@@ -787,16 +787,16 @@ export const translations = {
       title1: "Don't just take our ",
       titleHighlight: "word",
       subtitle: "Hear from the founders and marketing leaders who have partnered with us to scale their brands.",
-      roles: ["CMO, TechFlow Solutions", "Founder, Artisan Coffee Co.", "E-commerce Director, Lumina"],
+      roles: ["MobileExpressHN", "Founder, Artisan Coffee Co.", "E-commerce Director, Lumina"],
       quotes: [
-        "SMG completely transformed our online presence. Our inbound leads have increased by 300% since we started working with them six months ago.",
+        "SMG completely transformed our digital sales and engagement. Thanks to their targeted growth strategies, MobileExpressHN multiplied daily inquiries and phone sales week over week.",
         "The level of creativity and strategic thinking SMG brings to the table is unmatched. They don't just execute; they act as a true partner in our growth.",
         "We were struggling to get a positive ROAS on our Meta ads. SMG stepped in, restructured everything, and we're now seeing a consistent 4x return."
       ]
     },
     pricing: {
-      title1: "Simple, transparent ",
-      titleHighlight: "pricing",
+      title1: "Express Growth ",
+      titleHighlight: "Packages",
       subtitle: "Choose the package that fits your growth stage. No hidden fees, no long-term contracts.",
       individualServices: "Individual Services",
       selectAmount: "Select Amount",
