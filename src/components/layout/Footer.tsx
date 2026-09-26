@@ -1,7 +1,6 @@
 import { Camera, MessageCircle } from "lucide-react";
 import { useLanguage } from "../../contexts/LanguageContext";
 import { AGENCY_CONFIG } from "@/src/lib/constants";
-import { SMGLogo } from "@/src/components/ui/SMGLogo";
 
 export function Footer() {
   const { t } = useLanguage();
@@ -12,9 +11,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
           <div className="md:col-span-2">
             <a href="#" className="inline-flex items-center gap-3 mb-4 group">
-              <div className="bg-white/95 px-2.5 py-1.5 rounded-lg shadow-sm border border-white/20 transition-transform group-hover:scale-105">
-                <SMGLogo className="h-7 md:h-8" />
-              </div>
+              <img
+                src="/smg-logo-white.png"
+                alt="SMG Marketing Agency"
+                className="h-8 md:h-9 w-auto object-contain transition-transform group-hover:scale-105"
+              />
               <span className="text-white font-bold tracking-tight text-lg">
                 Social Media Growth
               </span>
