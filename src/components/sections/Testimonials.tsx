@@ -4,13 +4,13 @@ import { useLanguage } from "@/src/contexts/LanguageContext";
 
 const avatars = [
   "/brenda-nicol.jpg",
-  "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
-  "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
+  "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
+  "/elena-rodriguez.jpg"
 ];
 
 const authors = [
   "Brenda Nicol",
-  "David Chen",
+  "Kennia Mondragon",
   "Elena Rodriguez"
 ];
 
