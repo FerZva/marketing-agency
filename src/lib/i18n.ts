@@ -327,11 +327,11 @@ export const translations = {
       title1: "No solo confíes en nuestra ",
       titleHighlight: "palabra",
       subtitle: "Escucha a los fundadores y líderes de marketing que se han asociado con nosotros para escalar sus marcas.",
-      roles: ["MobileExpressHN", "Directora Comercial & Fundadora", "Directora de E-commerce, Lumina"],
+      roles: ["MobileExpressHN", "Directora Comercial & Fundadora", "Propietaria de Gimnasio & Centro Fitness"],
       quotes: [
         "SMG transformó por completo nuestras ventas e interacción digital. Gracias a sus estrategias de crecimiento acelerado, en MobileExpressHN multiplicamos las ventas y consultas de teléfonos cada semana.",
         "Recomiendo ampliamente los servicios de SMG al 100%. Su equipo no solo entiende a la perfección el mercado, sino que crearon una estrategia personalizada que disparó nuestra presencia de marca y ventas desde el primer mes. Trabajar con ellos ha sido la mejor inversión para nuestro negocio.",
-        "Estábamos luchando por obtener un ROAS positivo en nuestros anuncios de Meta. SMG intervino, reestructuró todo y ahora vemos un retorno constante de 4x."
+        "Nos costaba conseguir nuevas membresías para el gimnasio con pauta digital. SMG estructuró nuestras campañas en Meta, optimizó las ofertas y ahora logramos un flujo constante de inscripciones cada semana."
       ]
     },
     pricing: {
@@ -787,11 +787,11 @@ export const translations = {
       title1: "Don't just take our ",
       titleHighlight: "word",
       subtitle: "Hear from the founders and marketing leaders who have partnered with us to scale their brands.",
-      roles: ["MobileExpressHN", "Commercial Director & Founder", "E-commerce Director, Lumina"],
+      roles: ["MobileExpressHN", "Commercial Director & Founder", "Gym Owner & Fitness Entrepreneur"],
       quotes: [
         "SMG completely transformed our digital sales and engagement. Thanks to their targeted growth strategies, MobileExpressHN multiplied daily inquiries and phone sales week over week.",
         "I wholeheartedly recommend SMG's services 100%. Their team truly understands how to drive results; they built a tailored growth strategy that elevated our brand presence and boosted our sales right from month one. Partnering with SMG has been one of the best investments for our business.",
-        "We were struggling to get a positive ROAS on our Meta ads. SMG stepped in, restructured everything, and we're now seeing a consistent 4x return."
+        "We were struggling to generate steady new gym memberships through online ads. SMG stepped in, revamped our Meta ad creatives and lead funnels, and now we enjoy a predictable stream of sign-ups every single week."
       ]
     },
     pricing: {
