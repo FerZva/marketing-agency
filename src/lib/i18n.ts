@@ -327,7 +327,7 @@ export const translations = {
       title1: "No solo confíes en nuestra ",
       titleHighlight: "palabra",
       subtitle: "Escucha a los fundadores y líderes de marketing que se han asociado con nosotros para escalar sus marcas.",
-      roles: ["MobileExpressHN", "Directora Comercial & Fundadora", "Propietaria de Gimnasio & Centro Fitness"],
+      roles: ["MobileExpressHN", "Directora Comercial & Fundadora", "Gerenta de GBO Honduras"],
       quotes: [
         "SMG transformó por completo nuestras ventas e interacción digital. Gracias a sus estrategias de crecimiento acelerado, en MobileExpressHN multiplicamos las ventas y consultas de teléfonos cada semana.",
         "Recomiendo ampliamente los servicios de SMG al 100%. Su equipo no solo entiende a la perfección el mercado, sino que crearon una estrategia personalizada que disparó nuestra presencia de marca y ventas desde el primer mes. Trabajar con ellos ha sido la mejor inversión para nuestro negocio.",
@@ -787,7 +787,7 @@ export const translations = {
       title1: "Don't just take our ",
       titleHighlight: "word",
       subtitle: "Hear from the founders and marketing leaders who have partnered with us to scale their brands.",
-      roles: ["MobileExpressHN", "Commercial Director & Founder", "Gym Owner & Fitness Entrepreneur"],
+      roles: ["MobileExpressHN", "Commercial Director & Founder", "Manager of GBO Honduras"],
       quotes: [
         "SMG completely transformed our digital sales and engagement. Thanks to their targeted growth strategies, MobileExpressHN multiplied daily inquiries and phone sales week over week.",
         "I wholeheartedly recommend SMG's services 100%. Their team truly understands how to drive results; they built a tailored growth strategy that elevated our brand presence and boosted our sales right from month one. Partnering with SMG has been one of the best investments for our business.",
